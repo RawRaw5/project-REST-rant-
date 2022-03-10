@@ -20,6 +20,10 @@ app.get('*', (req, res) => {
     res.render('error404')
 })
 
+// app.get('/', (req, res) => {
+//     res.render('places/index')
+// })
+
 app.listen(process.env.PORT, () => {
   console.log(`Listening on port ${process.env.PORT}`);
 });
