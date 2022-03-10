@@ -1,8 +1,8 @@
-# Project REST-Rant
+# Project REST-rant
 
 REST-Rant is an app where users can review restaurants.
 
-# Routes
+## Routes
 
 | Method |         Path             |               Purpose                            |
 | ------ | ------------------------ | ------------------------------------------------ |
@@ -19,7 +19,7 @@ REST-Rant is an app where users can review restaurants.
 |   GET  |          *               | 404 page (matches any route not defined above)   |
 
 
-## Database
+### Database
 
 |  Field   |     Type   |
 | -------- | ---------- |
@@ -29,5 +29,3 @@ REST-Rant is an app where users can review restaurants.
 | state    | String     |
 | cuisines | String     |
 | pic      | String     |
-
-### 
