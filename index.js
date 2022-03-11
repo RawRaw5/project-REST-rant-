@@ -11,6 +11,7 @@ app.use(express.static('public'))
 
 // Controllers & Routes
 app.use('/places', require('./controllers/places'))
+app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
     res.render('home')
@@ -20,9 +21,9 @@ app.get('*', (req, res) => {
     res.render('error404')
 })
 
-// app.get('/', (req, res) => {
-//     res.render('places/index')
-// })
+app.get('/', (req, res) => {
+    res.render('places/index')
+})
 
 app.listen(process.env.PORT, () => {
   console.log(`Listening on port ${process.env.PORT}`);
