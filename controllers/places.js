@@ -1,5 +1,6 @@
 const router = require('express').Router()
 
+// Rendering a new view
 router.get('/new', (req, res) => {
   res.render('places/new')
 })
