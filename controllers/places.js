@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const places = require=('../models/places.js')
+const places = require('../models/places.js')
 
 // GET /places
 router.get('/', (req, res) => {
@@ -40,4 +40,4 @@ router.post('/', (req, res) => {
   res.redirect('/places')
 })
 
-module.exports = router   
+module.exports = router 
