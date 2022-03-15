@@ -8,10 +8,10 @@ function show (data) {
           <main>
             <h1>{ data.place.name }</h1>
             <div>
-              <textarea name="rating" id="rating" 
+              <value name="rating" id="rating" 
               style={{margin: + '1.2em'}}>
                 Not Rated
-              </textarea>  
+              </value>  
             </div>
             <div>
                 <img src={data.place.pic} alt={data.place.cuisines} />
@@ -26,7 +26,7 @@ function show (data) {
               <div>
               <textarea name="comments" id="comments" 
               style={{marginRight: + '1.2em'}}>
-                Hey.. say something
+                No comments
               </textarea>  
             </div>
             </form>      
