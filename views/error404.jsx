@@ -13,9 +13,7 @@ function error404 () {
                   Photo by <a href="AUTHOR_LINK">Andrew Bui</a> on <a href="UNSPLASH_LINK">Unsplash</a>
                 </div>
               </div>
-              <a href="/places">
-                <button className="btn-primary">Places Page</button>
-            </a>
+              <a href="/places"><button className="btn-primary">Places Page</button></a>
           </main>
       </Def>
     )
